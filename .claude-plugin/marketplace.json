@@ -1,0 +1,39 @@
+{
+  "name": "mccavity",
+  "owner": {
+    "name": "Henning Halfpap"
+  },
+  "description": "Henning Halfpap's personal Claude Code / Codex plugin marketplace.",
+  "plugins": [
+    {
+      "name": "paperless-bulk-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "McCavity/paperless-bulk-plugin",
+        "path": "plugins/paperless-bulk-plugin"
+      },
+      "description": "Inbox-Triage + Bulk-Operations Skills for Paperless-ngx (wraps the paperless-bulk MCP)",
+      "version": "1.0.0",
+      "author": { "name": "Henning Halfpap" },
+      "homepage": "https://github.com/McCavity/paperless-bulk-plugin",
+      "repository": "https://github.com/McCavity/paperless-bulk-plugin",
+      "license": "MIT",
+      "tags": ["paperless", "documents", "bulk-operations", "inbox-triage"]
+    },
+    {
+      "name": "iobroker-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "McCavity/iobroker-plugin",
+        "path": "plugins/iobroker-plugin"
+      },
+      "description": "Backend-agnostic ioBroker skills bundle: diagnose-device, find-state-by-pattern, battery-check-pattern",
+      "version": "1.0.0",
+      "author": { "name": "Henning Halfpap" },
+      "homepage": "https://github.com/McCavity/iobroker-plugin",
+      "repository": "https://github.com/McCavity/iobroker-plugin",
+      "license": "MIT",
+      "tags": ["iobroker", "smart-home", "zigbee", "diagnostics", "mcp"]
+    }
+  ]
+}

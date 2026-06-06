@@ -28,7 +28,7 @@
         "path": "plugins/iobroker-plugin"
       },
       "description": "Backend-agnostic ioBroker skills bundle: diagnose-device, find-state-by-pattern, battery-check-pattern",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": { "name": "Henning Halfpap" },
       "homepage": "https://github.com/McCavity/iobroker-plugin",
       "repository": "https://github.com/McCavity/iobroker-plugin",
